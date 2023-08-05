@@ -16,3 +16,8 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
+
+
+// document.querySelector('.cards-wrapper').classList.add('splide');
+// document.querySelector('.cards ').classList.add('splide__track');
+// document.querySelector('.splide__track ul').classList.add('splide__list');

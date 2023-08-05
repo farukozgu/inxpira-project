@@ -8,12 +8,12 @@
 }
 
 .cards > ul > li {
-  border: 1px solid var(--highlight-background-color);
-  background-color: var(--background-color)
+  border: none;
+  background-color: transparent;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin-top: 1em;
 }
 
 .cards .cards-card-image {
@@ -26,6 +26,39 @@
 
 .cards > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  /* aspect-ratio: 4 / 3; */
   object-fit: cover;
+}
+
+#lorem-ipsum-episódio-2,
+#lorem-ipsum-episódio-2-1,
+#lorem-ipsum-episódio-2-2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+#lorem-ipsum-episódio-2 a,
+#lorem-ipsum-episódio-2-1 a,
+#lorem-ipsum-episódio-2-2 a {
+  font-size: 14px;
+  background-color: #9D73F7;
+  text-align: center;
+  color: #fff;
+  pointer-events: none;
+  padding: 5px;
+  max-height: 15px;
+}
+
+#top-10-mais-assistidos {
+  font-size: 24px;
+}
+
+#blue-box {
+  background-color: #9D73F7;
+  color: #9D73F7;
+  max-width: 75px;
+  height: 10px;
+  font-size: .1px;
+  margin-bottom: 1rem;
 }

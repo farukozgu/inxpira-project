@@ -249,3 +249,43 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+.banner-button-blue {
+  background-color: #9D73F7 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  padding: 12px !important;
+  width: 300px;
+}
+
+.banner-button-transparent {
+  background-color: transparent !important;
+  color: #fff;
+  border: 1px solid #9D73F7 !important;
+  border-radius: 0 !important;
+  padding: 12px !important;
+  width: 300px;
+}
+
+.banner-section {
+  background-color: #02001E;
+}
+
+#exercício-físico-na-reabilitação-respiratória {
+  color: #fff;
+  font-size: 70px;
+}
+
+.banner-buttons > div > div {
+  display: flex;
+  gap: 1em;
+}
+
+.banner-section > div {
+  max-width: 1600px;
+}
+
+.video-section-first {
+  background-color: #090928;
+  color: #fff;
+}

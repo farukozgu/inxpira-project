@@ -133,3 +133,14 @@ async function loadPage() {
 }
 
 loadPage();
+
+
+
+document.querySelector('.banner-buttons p:nth-of-type(1) a').classList.add('banner-button-blue');
+document.querySelector('.banner-buttons p:nth-of-type(2) a').classList.add('banner-button-transparent');
+
+
+
+
+
+
