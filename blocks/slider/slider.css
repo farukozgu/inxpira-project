@@ -1,0 +1,20 @@
+
+.splide__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.cards-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-title a {
+  font-size: 12px;
+  background-color: #9D73F7;
+  color: #fff;
+  padding: 6px 12px 6px 12px
+}
+
