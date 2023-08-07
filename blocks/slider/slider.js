@@ -32,14 +32,17 @@ document.querySelector('.slider').classList.add('splide__track');
 document.querySelector('.slider-wrapper').classList.add('splide');
 
 
-
 var splide = new Splide( '.splide', {
-  type   : 'loop',
-  drag   : 'free',
+  loop: true,
+  type: 'loop',
   perPage: 3,
+  rewind : true,
+  autoplay: true,
+  drag   : 'free',
+  snap   : true,
+  perMove: 1,
 } );
 
 splide.mount();
-
 
 }
